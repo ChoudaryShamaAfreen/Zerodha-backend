@@ -3,8 +3,9 @@ const {Schema}=require("mongoose");
 const Orderschema=new Schema({
 name: String,
     qty:Number,
-    price:String,
+    price:Number,
     mode:String,
 });
 
 module.exports={Orderschema};
+
