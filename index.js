@@ -81,7 +81,7 @@ const JWT_SECRET = process.env.JWT_SECRET || "secret123";
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://your-frontend-domain.com"], // ✅ allow frontend
+    origin: ["http://localhost:3000", "https://eloquent-bubblegum-5de7a3.netlify.app"], // ✅ allow frontend
     credentials: true,
   })
 );
